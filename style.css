@@ -1,0 +1,67 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Headings */
+h2 {
+  margin: 40px 0 15px;
+  font-size: 22px;
+  color: #222;
+  border-left: 6px solid #0078d7;
+  padding-left: 10px;
+  background: linear-gradient(to right, #eaf4ff, transparent);
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #e1e5ea;
+}
+
+table th {
+  background: #0078d7;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+table tr:nth-child(even) {
+  background: #f9fbfd;
+}
+
+table tr:hover {
+  background: #eef6ff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  font-size: 14px;
+  color: #666;
+  background: #eaf4ff;
+  border-top: 2px solid #0078d7;
+}
